@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_taoyao.mk
+    $(LOCAL_DIR)/omni_taoyao.mk
