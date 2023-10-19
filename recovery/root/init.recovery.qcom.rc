@@ -27,9 +27,6 @@ on fs
     chown root system /dev/fscklogs/log
     chmod 0770 /dev/fscklogs/log
 
-on init
-    setprop sys.usb.configfs 1 
-
 on property:twrp.modules.loaded=true
     # Load ADSP firmware for PMIC
     wait /sys/kernel/boot_adsp/boot
@@ -74,5 +71,3 @@ on boot
     start health-hal-2-1
     start set_permissive
     start overrideprops
-    setprop sys.usb.config mtp,adb
-#

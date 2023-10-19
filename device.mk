@@ -99,7 +99,7 @@ PLATFORM_VERSION := 99.87.36
 PLATFORM_VERSION_LAST_STABLE := $(PLATFORM_VERSION)
 BOARD_USES_QCOM_FBE_DECRYPTION := true
 
-TW_LOAD_VENDOR_MODULES := "goodix_core.ko adsp_loader_dlkm.ko qti_battery_charger_main_odin.ko xiaomi_touch.ko focaltech_touch.ko"
+TW_LOAD_VENDOR_MODULES := "goodix_core.ko adsp_loader_dlkm.ko xiaomi_touch.ko focaltech_touch.ko"
 
 # Vibrator
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
